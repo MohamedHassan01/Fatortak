@@ -1,0 +1,116 @@
+/* Start reset style */
+.header .btn.btn-info  {
+    font-size: 0.650rem;
+}
+main .bill-data table.table{
+    color:#000!important;
+    font-family: gr-reg;
+  
+}
+main .bill-data table.table td, table.table th {
+    font-size:16px!important
+}
+main .bill-data table.table thead th {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border:none;
+}
+/* End Reset Style */
+header .logo {
+    width:200px
+}
+h1 span {
+    font-size:14px!important;
+    top:10px;
+    right:-10px;
+}
+main {
+    width:100%; 
+    margin:0 auto;
+    padding:50px;
+}
+
+.bill-det {
+    margin: 80px 0;
+    font-size:14px!important;
+}
+
+ .bill-det li {
+     margin-bottom:5px
+}
+.bill-det li span {
+    color:#000
+}
+
+.bill-det .outline {
+    font-family: gr-smBold;
+    color:#000!important;
+}
+
+.bill-data table .total,
+.bill-data table .description,
+.bill-data table .price {
+    font-family: gr-med;
+}
+.bill-data table .total-price {
+    font-family: gr-bold;
+}
+
+.bill-data table .total-cost {
+    font-family: gr-smBold;
+}
+
+main .bill-data table.table .service-info {
+    font-family:gr-light!important;
+}
+
+.bill-data table .cost-info {
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.pay-det {
+    margin-top:50px;
+}
+.pay-det  .payment-info {
+    font-family: gr-med;
+}
+
+@font-face {
+    font-family: gr-reg;
+    src: url("../fonts/ar/GraphikArabic.otf");
+}
+@font-face {
+    font-family: gr-black;
+    src: url("../fonts/ar/GraphikArabicBlack.otf");
+}
+@font-face {
+    font-family: gr-bold;
+    src: url("../fonts/ar/GraphikArabicBold.otf");
+}
+@font-face {
+    font-family: gr-exLight;
+    src: url("../fonts/ar/GraphikArabicExtraLight.otf");
+}
+@font-face {
+    font-family: gr-light;
+    src: url("../fonts/ar/GraphikArabicLight.otf");
+}
+@font-face {
+    font-family: gr-med;
+    src: url("../fonts/ar/GraphikArabicMedium.otf");
+}   
+@font-face {
+    font-family: gr-smBold;
+    src: url("../fonts/ar/GraphikArabicSemiBold.otf");
+}   
+@font-face {
+    font-family: gr-supBold;
+    src: url("../fonts/ar/GraphikArabicSuper.otf");
+}   
+@font-face {
+    font-family: gr-thin;
+    src: url("../fonts/ar/GraphikArabicThin.otf");
+}   
